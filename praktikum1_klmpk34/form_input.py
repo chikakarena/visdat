@@ -2,7 +2,21 @@ import streamlit as st
 import pandas as pd
 from datetime import date
 import os
+ # ============================================================
+# HEADER & INFORMASI KELOMPOK
+# ============================================================
+st.title("Praktikum Visualisasi Data")
+st.subheader("Segmen 5: FORM INPUT DATAru")
+st.markdown("""
+**Daftar Anggota Kelompok:**  
+- Chika Karena - 0110222015  
+- Chery Renata - 0110222011  
+- Ira Pratiwi - 01102222162  
 
+Kelas: VISUALISASI DATA (7TI01)  
+Dosen Pengampu: Pak IMAM HAROMAIN, S.Si., M.Kom. 
+STT Terpadu Nurul Fikri
+""")
 # Judul halaman
 st.title("📝 Form Input Data Pengguna")
 
